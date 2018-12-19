@@ -1,0 +1,39 @@
+﻿@using LoveCalculatorServerSide.App.Services
+@page "/lovecalc"
+@inject LoveCalculatorService LoveCalculatorService
+
+<h1>Love Calculator</h1>
+
+<p>This component calculates your love.</p>
+
+<input type="text" id="first" bind="@First" placeholder="First person"/><br/>
+<input type="text" id="second" bind="@Second" placeholder="Second person"/><br/>
+
+<button onclick="@Calculate">Calculate Love</button>
+
+@if (Result.HasValue)
+{
+    if (Result.Value)
+    {
+        <div>Love is in the air!</div>
+        <img style="width: 50%" src="https://www.publicdomainpictures.net/pictures/90000/velka/red-scribble-heart.jpg#.XBq9Cmvc_gk.link"/>
+    }
+    else
+    {
+        <div>This won't work!</div>
+    }
+}
+
+@functions {
+
+    public string First { get; set; }
+    public string Second { get; set; }
+
+    public bool? Result { get; set; }
+
+    public async void Calculate()
+    {
+        Result = await LoveCalculatorService.CalculateLove(First, Second);
+    }
+
+}

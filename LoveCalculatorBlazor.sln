@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoveCalculatorServerSide.Server", "LoveCalculatorServerSide.Server\LoveCalculatorServerSide.Server.csproj", "{802C9AAE-5EA3-4F66-A016-627B6B91D5D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoveCalculatorServerSide.App", "LoveCalculatorServerSide.App\LoveCalculatorServerSide.App.csproj", "{E16CEC94-70B0-499A-A2EB-94BD148D100F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoveCalculatorLogic", "LoveCalculatorLogic\LoveCalculatorLogic.csproj", "{63209B07-1E2B-4B89-ACFE-24FF5DFE3910}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoveCalculatorLogicTest", "LoveCalculatorLogicTest\LoveCalculatorLogicTest.csproj", "{4EE5F3C2-ADD1-4B72-8F29-F0E233294045}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoveCalculatorClientSide", "LoveCalculatorClientSide\LoveCalculatorClientSide.csproj", "{D335D619-EC11-4B95-B3B5-47EDA6CE4D60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{802C9AAE-5EA3-4F66-A016-627B6B91D5D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802C9AAE-5EA3-4F66-A016-627B6B91D5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802C9AAE-5EA3-4F66-A016-627B6B91D5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802C9AAE-5EA3-4F66-A016-627B6B91D5D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E16CEC94-70B0-499A-A2EB-94BD148D100F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E16CEC94-70B0-499A-A2EB-94BD148D100F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E16CEC94-70B0-499A-A2EB-94BD148D100F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E16CEC94-70B0-499A-A2EB-94BD148D100F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63209B07-1E2B-4B89-ACFE-24FF5DFE3910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63209B07-1E2B-4B89-ACFE-24FF5DFE3910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63209B07-1E2B-4B89-ACFE-24FF5DFE3910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63209B07-1E2B-4B89-ACFE-24FF5DFE3910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EE5F3C2-ADD1-4B72-8F29-F0E233294045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE5F3C2-ADD1-4B72-8F29-F0E233294045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE5F3C2-ADD1-4B72-8F29-F0E233294045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE5F3C2-ADD1-4B72-8F29-F0E233294045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D335D619-EC11-4B95-B3B5-47EDA6CE4D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D335D619-EC11-4B95-B3B5-47EDA6CE4D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D335D619-EC11-4B95-B3B5-47EDA6CE4D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D335D619-EC11-4B95-B3B5-47EDA6CE4D60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B09E260-3FA4-48AE-B174-2445736BAB12}
+	EndGlobalSection
+EndGlobal
